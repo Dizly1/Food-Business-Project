@@ -36,6 +36,7 @@ Paragraph default: 1.6
 --- 06 BORDER-RADIUS
 
 Deafult: 9px
+Medium: 11px
 
 --- 07 WHITESPACE
 
@@ -168,4 +169,25 @@ body {
 
 .grid--center-v {
   align-items: center;
+}
+
+strong {
+  font-weight: 500;
+}
+
+.list {
+  list-style: none;
+}
+
+.list-item {
+  font-size: 1.8rem;
+  display: flex;
+  align-items: center;
+  gap: 1.6rem;
+}
+
+.list-icon {
+  width: 3rem;
+  height: 3rem;
+  color: #e67e22;
 }
